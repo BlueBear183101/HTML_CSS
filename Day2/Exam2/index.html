@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liên hệ</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Liên Hệ</h1>
+        </header>
+
+        <main>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Thông tin cá nhân</legend>
+                    <label for="name">Họ và tên</label><br>
+                    <input id="name" type="text" name="name" placeholder="Nhập họ và tên của bạn" required>
+                    
+                    <br><br>
+
+                    <label for="email">Email</label><br>
+                    <input id="email" type="email" name="email" placeholder="Nhập email của bạn" required>
+                    
+                    <br><br>
+
+                    <label>Giới tính:</label>
+                    <input id="male" type="radio" name="gender" value="Nam">
+                    <label>Nam</label>
+                    <input id="female" type="radio" name="gender" value="Nam">
+                    <label>Nữ</label>
+
+                    <br><br>
+                    
+                    <label for="region">Quốc gia</label><br>
+                    <select id="region" name="region">
+                        <option value="Vietnam">Việt Nam</option>
+                        <option value="Laos">Lào</option>
+                        <option value="Thailand">Thái Lan</option>
+                    </select>
+                    <br><br>
+
+                    <input id="recvMsg" type="checkbox" name="recvMsg" value="Recv">
+                    <label for="recvMsg">Đăng kí nhận thông báo</label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tin nhắn</legend>
+
+                    <label>Chủ đề:</label>
+                    <input id="TuVan" type="radio" name="Topic" value="Tư vấn">
+                    <label for="TuVan">Tư vấn</label>
+                    <input id="PhanHoi" type="radio" name="Topic" value="Phản hồi">
+                    <label for="PhanHoi">Phản hồi</label>
+                    <input id="Khac" type="radio" name="Topic" value="Khác">
+                    <label for="Khac">Khác</label>
+
+                    <br><br>
+                    <label for="message">Tin nhắn:</label> <br>
+                    <textarea id="message" rows="5" cols="50" placeholder="Nhập tin nhắn vào đây"></textarea>
+
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
